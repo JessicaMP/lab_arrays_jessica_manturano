@@ -5,7 +5,19 @@ const arr = [
   ]
   
   // ¡Escribe tu código debajo de esta línea!
+  /* ¿Pueden agregar un solo número a una fila existente? */
+  arr[0].push(30)
   
-  
+  /* ¿Pueden agregar una fila completa de números? */
+  arr.push([30,29,28])
+
+  /* ¿Pueden eliminar un solo número de una sola fila? */
+  arr[1].pop()
+
+  /* ¿Pueden invertir una de las filas sin afectar a las demás? */
+  arr[2].reverse()
+
   
   // ¡Escribe tu código encima de esta línea!
+  console.log(arr);
+  
